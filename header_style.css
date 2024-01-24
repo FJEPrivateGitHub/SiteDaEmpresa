@@ -167,7 +167,7 @@ body {
 }
 
 .login-container{
-    width: 15%;
+    width: 15vw;
     margin: 0 20px;
     display: flex;
     align-items:center;
@@ -180,17 +180,17 @@ body {
     grid-template-columns: max-content 1fr;
     list-style: none;
     align-items: center ;
+    color: white;
 }
 
 .material-symbols-outlined{
     color: white;
-    transform: translateX(-3%);
     cursor: pointer;
 }
 
 .rl_options li a{
     text-decoration: none;
-    color: white;
+    color: rgb(200, 200, 200, 0.9);
 }
 
 .login li{
