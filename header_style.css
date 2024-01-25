@@ -12,25 +12,19 @@ body {
     width: 100%;
     background-color: #019bb6;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
     align-items: center;
     position: fixed;
     padding: 10px;
 }
 
-.user_img{
-    width: 35px;
-    justify-self: center ;
-    margin: 0 10px;
-}
-
-/* .options {
+.options {
     display: grid;
     width: 80%;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     list-style: none;
-} */
+}
 
 .options li a {
     text-decoration: none;
@@ -45,6 +39,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    transform: translateX(3%);
     font-size: 22px;
 }
 
@@ -87,9 +82,22 @@ body {
     color: #5f9ea0;
 }
 
-.serviços:hover .drop-down, .contato:hover .drop-down, .parceiros:hover .drop-down, .produtos:hover .drop-down{
+.serviços:hover .drop-down{
     display: block;
 }
+
+.contato:hover .drop-down{
+    display: block;
+}
+
+.parceiros:hover .drop-down{
+    display: block;
+}
+
+.produtos:hover .drop-down{
+    display: block;
+}
+
 
 .serviços a{
     display: flex;
@@ -160,6 +168,7 @@ body {
 .logo{
     width: max-content;
     color: white;
+    transform: translateX(95%);
     font-size: 40px;
     font-weight: normal;
     font-family: 'Black Ops One', system-ui;
@@ -167,30 +176,29 @@ body {
 }
 
 .login-container{
-    width: 15vw;
-    margin: 0 20px;
+    width: 100%;
     display: flex;
     align-items:center;
-    font-size: 1.1em;
+    transform: translateX(40%);
+    font-size: 22px;
 }
 
-.rl_options{
+.login{
     display: grid;
-    width: 100%;
-    grid-template-columns: max-content 1fr;
+    width: 47%;
+    grid-template-columns: 12% 35%;
     list-style: none;
-    align-items: center ;
-    color: white;
 }
 
 .material-symbols-outlined{
     color: white;
+    transform: translateX(-3%);
     cursor: pointer;
 }
 
-.rl_options li a{
+.login li a{
     text-decoration: none;
-    color: rgb(200, 200, 200, 0.9);
+    color: white;
 }
 
 .login li{
