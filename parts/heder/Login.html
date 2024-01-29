@@ -14,7 +14,7 @@
     <section class="fundo-login">
         <div class="textos-fundo">
             <p>Seja Bem Vindo</p>
-            <p class="textos-fundo-subtitulo">Inscreva-se para ter acesso aos serviços da SkyLink'd</p>
+            <p class="textos-fundo-subtitulo">Loge-se para acessar o seu painel de serviços da SkyLink'd</p>
         </div>
         <div class="Login">
             <form name="form-login" method="POST" action="verificação.php" onload="document.form-login.Name-usu.focus()">
@@ -28,11 +28,18 @@
                     <input name="Senha-usu" type="password" placeholder="Senha" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
+                <div class="esqueceu-senha">
+                    <a href="#">Esqueceu a sua Senha?</a>
+                </div>
 
                 <button type="submit" class="bnt">Login</button>
 
                 <div class="registro">
-                    <p>Outros meios de inscrever-se</p>
+                    <a href="./SignUP.html">Crie uma conta</a>
+                </div>
+                <div class="input-google">
+                    <i class='bx bxl-google'></i>
+                    <button type="submit" class="bnt-google">Logar-se com o Google</button>
                 </div>
             </form>
         </div>
