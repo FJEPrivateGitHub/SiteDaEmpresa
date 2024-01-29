@@ -17,19 +17,19 @@
             <p class="textos-fundo-subtitulo">Inscreva-se para ter acesso aos serviços da SkyLink'd</p>
         </div>
         <div class="Login">
-            <form method="POST" action="verificação.php">
+            <form name="form-login" method="POST" action="verificação.php" onload="document.form-login.Name-usu.focus()">
                 <h1>Sign Up</h1>
                 <h5>Preencha os campos abaixo com dados validos.</h5>
                 <div class="input-box">
-                    <input type="text" placeholder="Nome de Usuário" required>
+                    <input name="Nome-usu" type="text" placeholder="Nome de Usuário" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="text" placeholder="Email de Usuário" required>
+                    <input name="Email-usu" type="text" placeholder="Email de Usuário" required>
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Senha" required>
+                    <input name="Senha-usu" type="password" placeholder="Senha" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
 
