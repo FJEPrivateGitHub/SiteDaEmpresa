@@ -43,3 +43,36 @@
     content: '';
     width: 100%;
 }
+
+<div class="input-google">
+                    <i class='bx bxl-google'></i>
+                    <button type="submit" class="bnt-google">Inscreva-se com o Google</button>
+</div>
+
+.bnt-google{
+    width: 100%;
+    height: 45px;
+    background-color: #4169E1;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.bnt-google:hover{
+    background-color: #a9a9a9;
+}
+
+.input-google i{
+    position: absolute;
+    right: 85%;
+    top: 50%;
+    transform: translateY(-60%);
+    font-size: 30px;
+    color: #fff;
+}
