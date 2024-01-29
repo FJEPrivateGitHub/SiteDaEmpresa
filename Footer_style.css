@@ -32,6 +32,11 @@
     color: #708090;
 }
 
+.bnt-singup a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .redes-menu{
     display: grid;
     width: 20%;
