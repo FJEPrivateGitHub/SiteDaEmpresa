@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyLin'd Login Page</title>
-    <link rel="stylesheet" href="./Login_style.css">
+    <title>SkyLin'd Sign Up Page</title>
+    <link rel="stylesheet" href="./SignUP_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -17,19 +17,19 @@
             <p class="textos-fundo-subtitulo">Inscreva-se para ter acesso aos serviços da SkyLink'd</p>
         </div>
         <div class="Login">
-            <form method="POST" action="verificação.php">
+            <form name="form-login" method="POST" action="verificação.php">
                 <h1>Sign Up</h1>
                 <h5>Preencha os campos abaixo com dados validos.</h5>
                 <div class="input-box">
-                    <input type="text" placeholder="Nome de Usuário" required>
+                    <input name="Nome-usu" type="text" placeholder="Nome de Usuário" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="text" placeholder="Email de Usuário" required>
+                    <input name="Email-usu" type="text" placeholder="Email de Usuário" required>
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Senha" required>
+                    <input name="Senha-usu" type="password" placeholder="Senha" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
 

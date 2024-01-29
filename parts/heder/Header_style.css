@@ -128,7 +128,7 @@ body {
 
 
 .ativar .linha{
-    background-color: red;
+    background-color: #fff;
 }
 
 .ativar .linha:nth-child(1){
