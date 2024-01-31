@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyLin'd Esqueceu a Senha?</title>
+    <link rel="stylesheet" href="./Esqueceu_Senha_Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="fundo-login">
+        <div class="textos-fundo">
+            <p>Recupere a sua senha via Email</p>
+            <p class="textos-fundo-subtitulo">Você ira receber um Email em seu correio digital dá SkyLink'd</p>
+        </div>
+        <div class="Login">
+            <form name="form-login" method="POST" action="verificação.php" onload="document.form-login.Name-usu.focus()">
+                <h1>Perdeu sua Senha?</h1>
+                <h5>Insira a sua conta existente</h5>
+                <div class="input-box">
+                    <input name="Nome-Email-usu" type="text" placeholder="Nome de Usuário" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input name="Email-usu" type="text" placeholder="Email de Usuário" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input name="Email-usu" type="text" placeholder="Confirmar Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+
+                <button type="submit" class="bnt">Obter Código</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
