@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: row-reverse;
     width: 50vw;
-    height: 50vh;
+    height: 58vh;
     border-radius: 40px 10px 40px 40px;
     background-color: transparent;
     backdrop-filter: blur(50px);
