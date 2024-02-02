@@ -50,3 +50,7 @@ iframe{
 .social_links>li {
     width: max-content;
 }
+
+.teste{
+    display: block;
+}
